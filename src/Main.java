@@ -1,7 +1,7 @@
 public class Main {
 
         public static void main(String[] args) {
-            task0();
+
             task1();
             task2();
             task3();
@@ -10,17 +10,6 @@ public class Main {
             task6();
             task7();
             task8();
-        }
-
-        public static void task0() {
-            System.out.println("Задача 0");
-            int salary = 65535;
-            int total = 0;
-            for (; total < 1_000_000; ) {
-                total = total + total / 100;
-                total = total + salary;
-                System.out.println(total);
-            }
         }
 
         public static void task1() {
